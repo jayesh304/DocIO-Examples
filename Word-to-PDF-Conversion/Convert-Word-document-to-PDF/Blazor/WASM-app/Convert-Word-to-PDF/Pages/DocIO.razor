@@ -32,6 +32,7 @@
                             outputStream.Position = 0;
                             //Download PDF file in the browser.
                             await JS.SaveAs("Output.pdf", outputStream.ToArray());
+                            console.WriteLine("\");
                         }
                     }
                 }
